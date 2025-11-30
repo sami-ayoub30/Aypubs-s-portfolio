@@ -1,0 +1,87 @@
+header{
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+#navbar-H{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+    }
+#navbar-H a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+#navbar-logo{
+    width: 75px;
+    border-radius: 100px;
+}
+#home-img{
+    width: 500px;
+    display: flex;
+}
+#home-P{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-bottom: 2px solid gray;
+}
+#btn{
+    width: 85px;
+    height: 25px;
+    border-radius: 100px;
+    color: rgb(15, 7, 7);
+    background-color: grey;
+    cursor: pointer;
+    &:hover{
+        background-color:  rgb(241, 238, 238);
+        opacity: 12px;
+    }
+    display: list-item;
+}
+#btn2{
+    width: 85px;
+    height: 25px;
+    border-radius: 100px;
+    color: rgb(15, 7, 7);
+    background-color: grey;
+    cursor: pointer;
+    &:hover{
+        background-color:  rgb(241, 238, 238);
+        opacity: 12px;
+    }
+    }
+    #about-S{
+        display: flex;
+    align-items: center;
+    justify-content:center;
+    border-bottom: 2px solid gray;
+    }
+#Resume-S{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-bottom: 2px solid gray;
+}
+#contact-S{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid gray;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color:  rgb(241, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
